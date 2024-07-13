@@ -1,11 +1,11 @@
-# Spam_Email_Classifier
+# Spam Email Classifier
 ## Overview
 This repository contains code for a spam email classifier developed as part of my Machine Learning internship at Digital Empowerment Network. The goal of this project is to classify emails as spam or ham (not spam) using machine learning techniques.
 
 ## Dataset
 The dataset used for this project is the mail_data.csv file, which contains the following columns:  
-Category: The label of the email, either 'spam' or 'ham'.  
-Message: The content of the email.  
+1. Category: The label of the email, either 'spam' or 'ham'.  
+2. Message: The content of the email.  
 
 ## Steps Involved
 ### 1. Data Preprocessing
@@ -27,7 +27,7 @@ To run the code, follow these steps:
 1. Clone this repository to your local machine.  
 2. Navigate to the directory containing the code.  
 3. Ensure that the mail_data.csv file is in the same directory as the code.  
-4. Run the script: python spam_email_classifier.py
+4. Run the script: python spam_email_classifier.ipynb
 
 ## Conclusion
 This project demonstrates the process of building a spam email classifier using Logistic Regression. The model can accurately classify emails as spam or ham based on their content. Future improvements could include experimenting with different models and techniques to further enhance accuracy.
